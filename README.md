@@ -1,7 +1,8 @@
 # Learning ZMQ
 
 ### Why ZeroMQ?
-- A more efficient and customize tool for pub/sub data across programs than using ROS1.
+- A high performance and brokerless messenging library to pub/sub data across programs.
+- Available in multiple programming languages.
 
 ### Debian/Ubuntu Requirements
 - `apt-get install libczmq-dev`
@@ -16,7 +17,7 @@ Compile: `gcc -Wall filename.c -o filename -lzmq`
 - Compile: `g++ -o filename filename.cpp -lzmq`
 
 ### Python
-- Need pzmq library: 
+- Need pzmq library: `pip install pyzmq`
 - More setting to set https://stackoverflow.com/questions/48278859/how-to-have-limited-zmq-zeromq-pyzmq-queue-buffer-size-in-python
 
 ### Reference
